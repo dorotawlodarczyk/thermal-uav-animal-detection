@@ -5,7 +5,7 @@ The solution was developed during a research internship and is accompanied by a 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 thermal-uav-animal-detection/
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 3. `03_BRF_prediction_and_visualization.ipynb`  
    Applies the trained BRF model to new image features and visualizes detection results on thermal image overlays.
 
-## 📑 Article
+## Article
 This repository is accompanied by a scientific publication that details the dataset, methodology and evaluation.
 Some parameters may differ slightly, but the core workflow remains unchanged.
 
