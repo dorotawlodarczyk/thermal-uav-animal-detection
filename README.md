@@ -32,7 +32,7 @@ It is strongly recommended to name the thermal images using the HH-MM-SS pattern
 This prevents sorting issues such as 1, 10, 11, … 2, 20, 21 … and guarantees correct temporal order.
 
 ## Installation
-# Python ≥ 3.10 is recommended
+### Python ≥ 3.10 is recommended
 ```bash
 pip install -r requirements.txt
 ```
