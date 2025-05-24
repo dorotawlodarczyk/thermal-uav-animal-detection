@@ -26,18 +26,18 @@ thermal-uav-animal-detection/
     └── predictions/          # Saved prediction results
 ```
 
-## 🔍 Image Folder Requirement
+## Image Folder Requirement
 The folder data/thermal_images/ has to be created manually before running any notebook.
 It is strongly recommended to name the thermal images using the HH-MM-SS pattern (e.g. 00-01-01.tif).
 This prevents sorting issues such as 1, 10, 11, … 2, 20, 21 … and guarantees correct temporal order.
 
-## ⚙️ Installation
+## Installation
 # Python ≥ 3.10 is recommended
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🚀 How to Use
+## How to Use
 1. `01_Feature_extraction.ipynb`  
    Detects segments in thermal images, extracts geometric, thermal, and CNN features.
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 3. `03_BRF_prediction_and_visualization.ipynb`  
    Applies the trained BRF model to new image features and visualizes detection results on thermal image overlays.
 
-## 📑 Scientific Article
+## 📑 Article
 This repository is accompanied by a scientific publication that details the dataset, methodology and evaluation.
 Some parameters may differ slightly, but the core workflow remains unchanged.
 
@@ -57,6 +57,6 @@ Balanced Random Forest and CNN features* Reports on Geodesy and Geoinformatics, 
 
 Not available yet
 
-## 📜 License
+## License
 Licensed under the Apache License 2.0.
 See the LICENSE file for full details.
