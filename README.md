@@ -52,8 +52,8 @@ This repository is accompanied by a scientific publication that details the data
 Some parameters may differ slightly, but the core workflow remains unchanged.
 
 Citation (in English):
-> D. Włodarczyk, G. Jóźków *Hoofed animal detection in UAV thermal images using
-Balanced Random Forest and CNN features* Reports on Geodesy and Geoinformatics, Submitted, 2025.
+> D. Włodarczyk, G. Jóźków, "Hoofed animal detection in UAV thermal images using
+Balanced Random Forest and CNN features", *Reports on Geodesy and Geoinformatics*, Submitted, 2025.
 
 Not available yet
 
