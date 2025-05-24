@@ -15,7 +15,7 @@ thermal-uav-animal-detection/
 ├── requirements.txt                          # Python dependencies
 ├── README.md                                 # Project documentation (this file)
 └── data/
-    ├── thermal_images/       # 🔸 MUST BE CREATED MANUALLY
+    ├── thermal_images/       # MUST BE CREATED MANUALLY
     │                           Thermal images (e.g. 00-01-01.tif)
     ├── cnn_model/            # Saved CNN model (optional)
     ├── cnn_activations/      # CNN feature maps (activations)
