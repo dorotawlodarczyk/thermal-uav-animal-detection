@@ -7,23 +7,35 @@ The solution was developed during a research internship and is accompanied by a 
 
 ## Project Structure
 
+The following files and folders are used or created by the scripts in this repository:
+
+### Files provided in the repository:
 ```text
 thermal-uav-animal-detection/
 ├── 01_Feature_extraction.ipynb               # Extracts thermal, geometric & CNN-based features
 ├── 02_BRF_training.ipynb                     # Trains a Balanced Random Forest model
 ├── 03_BRF_prediction_and_visualization.ipynb # Applies model & visualizes results
 ├── requirements.txt                          # Python dependencies
-├── README.md                                 # Project documentation (this file)
-└── data/
-    ├── thermal_images/       # MUST BE CREATED MANUALLY
-    │                           Thermal images (e.g. 00-01-01.tif)
-    ├── cnn_model/            # Saved CNN model (optional)
-    ├── cnn_activations/      # CNN feature maps (activations)
-    ├── result_features/      # Extracted segment features
-    ├── brf_model/            # Saved Balanced Random Forest model
-    │   ├── optuna/           # Optuna optimization results
-    │   └── results/          # Saved results on test and validation data
-    └── predictions/          # Saved prediction results
+└── README.md                                 # Project documentation (this file)
+```
+### Working directory:
+
+This folder is not included in the repository – it must be created or specified by the user.
+Within that folder, the following subdirectories are either:
+    - Required manually (thermal_images/)
+    - or created automatically by the scripts
+```text
+data/
+├── thermal_images/       # MUST BE CREATED MANUALLY
+│                           Thermal images (e.g. 00-01-01.tif)
+├── cnn_model/            # Saved CNN model (optional)
+├── cnn_activations/      # CNN feature maps (activations)
+├── result_features/      # Extracted segment features
+├── brf_model/            # Saved Balanced Random Forest model
+│   ├── optuna/           # Optuna optimization results
+│   └── results/          # Saved results on test and validation data
+└── predictions/          # Saved prediction results
+
 ```
 
 ## Image Folder Requirement
