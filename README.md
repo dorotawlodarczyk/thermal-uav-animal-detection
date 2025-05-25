@@ -22,8 +22,8 @@ thermal-uav-animal-detection/
 
 This folder is not included in the repository – it must be created or specified by the user.
 Within that folder, the following subdirectories are either:
-    - Required manually (thermal_images/)
-    - or created automatically by the scripts
+- **Required manually** (`thermal_images/`)
+- **Created automatically** by the scripts
 ```text
 data/
 ├── thermal_images/       # MUST BE CREATED MANUALLY
