@@ -39,7 +39,7 @@ data/
 ```
 
 ## Image Folder Requirement
-The folder data/thermal_images/ has to be created manually before running any notebook.
+The folder `data/thermal_images/` has to be created manually before running any notebook.
 It is strongly recommended to name the thermal images using the HH-MM-SS pattern (e.g. 00-01-01.tif).
 This prevents sorting issues such as 1, 10, 11, … 2, 20, 21 … and guarantees correct temporal order.
 
