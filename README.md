@@ -62,11 +62,9 @@ pip install -r requirements.txt
 ## Article
 This repository is accompanied by a scientific publication that details the dataset, methodology and evaluation.
 Some parameters may differ slightly, but the core workflow remains unchanged.
-<!-- 
-D. Włodarczyk, G. Jóźków, "Hoofed animal detection in UAV thermal images using Balanced Random Forest and CNN features", 
-Reports on Geodesy and Geoinformatics, Submitted, 2025.
--->
-Not available yet
+
+Włodarczyk, D., Jóźków, G. (2025). Hoofed animal detection in UAV thermal images using Balanced Random Forest and CNN features. Reports on Geodesy, 120, 1-13,
+https://doi.org/10.2478/rgg-2025-0011 
 
 ## License
 Licensed under the Apache License 2.0.
